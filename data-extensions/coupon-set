@@ -1,0 +1,17 @@
+# start comments with a pound sign! 
+# this file describes the data extension to create
+name=CouponSet_exp1
+key=de_couponset_exp1
+sendable=true
+customerKey=subscriberKey
+# col=name,type,maxLength,isrequired, isPrimaryKey, defaultValue
+# if you leave a column blank, we'll not specify a value in the SOAP payload
+col1=subscriberkey,text,50,false,false
+col2=couponcode,text,30,true,true
+col3=isclaimed,boolean,,false,false,FALSE
+col4=claimeddate,date,,false,false
+col5=jobid,number,,false,false
+col6=listid,number,,false,false
+col7=batchid,number,,false,false
+col8=subscriberid,number,,false,false
+col9=emailaddress,emailaddress,,false,false

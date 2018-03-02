@@ -1,0 +1,8 @@
+{
+   "marketingCloud" : {
+	"dataExtensions" : ["coupon-set"],
+        "deData" : ["coupon-set"],
+        "contentBlocks" : ["coupon-block"]
+   }
+
+}

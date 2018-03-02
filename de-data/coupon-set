@@ -1,0 +1,13 @@
+# DE Dataset Definition
+# key - data extension key to push this data into
+# columnOrder - order that the rows of data are constructed in
+# Example:
+# columnOrder=col1Name,col2Name
+# row1ValueCol1, row1ValueCol2 
+# {{random}} will generate a random number for the value
+primaryKeys=couponCode
+key=de_Coupon_ex_{{couponSetName}}
+columnOrder=couponCode,isClaimed
+{{random}},false
+12,false
+44,false
